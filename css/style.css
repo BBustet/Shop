@@ -1,0 +1,13 @@
+.white {
+    color: white;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: 20px;
+}
