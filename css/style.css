@@ -11,3 +11,42 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.wagen {
+    padding-top: 5px;
+}
+
+.KÜberschrift {
+    text-align: center;
+    margin: 50px;
+}
+
+.w80 {
+    width: 85%;
+}
+
+.kategorie {
+    border: black 1px ;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.kategorie p {
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+@media screen and (min-width:1200px) {
+    .kategorie p {
+        font-size: 20px;
+    }
+}
