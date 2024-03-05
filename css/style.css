@@ -30,14 +30,12 @@
 a {
     text-decoration: none;
     color: black;
-    border: black 1px ;
+    border: black 1px;
 }
 
 .kategorie {
-    
     padding: 10px;
     margin: 5px;
-    
 }
 
 .kategorie p {
@@ -59,11 +57,11 @@ a {
 .grid {
     display: grid;
     grid-template-rows: repeat(3, 60px);
-    grid-template-columns: 210px 265px 265px 130px;
-    grid-template-areas: 
-        "gBild gProduktName gProduktName gProduktName"
-        "gBild gPreis gAllergene gPlusMehr"
-        "gBild gKiloPreis gAngebot gAngebot";
+    grid-template-columns: 20% 30% 30% 7% 7%;
+    grid-template-areas:
+        "gBild gProduktName gProduktName gProduktName gProduktName"
+        "gBild gPreis gAllergene gPlus gMehr"
+        "gBild gKiloPreis gAngebot gAngebot gAngebot";
     text-align: left;
     gap: 15px;
 }
@@ -87,24 +85,56 @@ a {
 
 .gPreis {
     grid-area: gPreis;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 .gKiloPreis {
     grid-area: gKiloPreis;
+    font-weight: 450;
+    font-size: 20px;
 }
 
 .gAllergene {
     grid-area: gAllergene;
+    font-weight: 450;
+    font-size: 15px;
+    padding-top: 6px;
 }
 
 .gAngebot {
     grid-area: gAngebot;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
-.gPlusMehr {
-    grid-area: gPlusMehr;
+.gPlus {
+    grid-area: gPlus;
+    background-color: lightgrey;
+    font-size: 24px;
+    font-weight: 1000;
+    margin-top: 7.5%;
+    padding-top: 0;
+    padding-left: 10x;
+    height: 50px;
+    width: 50px;
+    border: black double 5px;
+    border-radius: 100%;
 }
 
+.gMehr {
+    grid-area: gMehr;
+    background-color: lightgrey;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 7.5%;
+    padding-top: 1px;
+    padding-left: 15px;
+    height: 50px;
+    width: 50px;
+    border: black double 5px;
+    border-radius: 100%;
+}
 
 img {
     width: 100%;
@@ -112,7 +142,7 @@ img {
     box-shadow: 5px 5px 10px;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .kategorie p {
         font-size: 20px;
     }
@@ -135,7 +165,6 @@ img {
 .oben {
     background-color: #bb0000;
     color: white;
-    
 }
 
 .oben:hover {
@@ -143,4 +172,3 @@ img {
     color: white;
     box-shadow: 0px 0px 30px;
 }
-
