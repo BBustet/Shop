@@ -21,6 +21,7 @@
 .KÜberschrift {
     text-align: center;
     margin: 50px;
+    font-weight: bolder;
 }
 
 .w80 {
@@ -153,6 +154,7 @@ img {
     margin-top: 60px;
     text-align: center;
     background-color: #d80000;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .btnoben {
@@ -160,6 +162,12 @@ img {
     margin-top: -63px;
     margin-right: 23px;
     position: relative;
+}
+
+.bananen {
+    box-shadow: none;
+    width: 500px;
+    margin: 500px;
 }
 
 .oben {
@@ -172,3 +180,4 @@ img {
     color: white;
     box-shadow: 0px 0px 30px;
 }
+
