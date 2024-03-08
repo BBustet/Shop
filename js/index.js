@@ -2,6 +2,17 @@ var vWarenkorb = [];
 var vAusgabe = "";
 var vSumme = 0;
 
+function fAusklappen() {
+    /*Dafür hab ich 5 Stunden gebraucht um diese scheiße herauszufinden. Man muss beim ersten mal den Korb nur 2x klicken*/
+
+    if (document.getElementById("idWarenkorb").style.visibility === "hidden") {
+        document.getElementById("idWarenkorb").style.visibility = "visible";
+    } else {
+        document.getElementById("idWarenkorb").style.visibility = "hidden";
+    }
+}
+
+/*Gibt sicher einfachere Wege aber der war für den Anfang am einfachsten*/
 function fAddApfel() {
     vWarenkorb.push("1x Apfel.......................................................................1,50€");
     console.log(vWarenkorb);
