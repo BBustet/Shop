@@ -3,7 +3,7 @@ var vAusgabe = "";
 var vSumme = 0;
 
 function fAusklappen() {
-    /*Dafür hab ich 5 Stunden gebraucht um diese scheiße herauszufinden. Man muss aber2s beim ersten mal den Korb 2x klicken*/
+    /*Dafür hab ich 2,5 Stunden gebraucht um diese scheiße herauszufinden. Man muss aber2s beim ersten mal den Korb 2x klicken*/
 
     if (document.getElementById("idWarenkorb").style.visibility === "hidden") {
         document.getElementById("idWarenkorb").style.visibility = "visible";

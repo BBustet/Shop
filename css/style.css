@@ -206,3 +206,10 @@ img {
     color: white;
     box-shadow: 0px 0px 30px;
 }
+
+.Start {
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 0, 55);
+    border-radius: 10px;
+}
