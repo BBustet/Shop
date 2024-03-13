@@ -213,3 +213,12 @@ img {
     background-color: rgb(255, 0, 55);
     border-radius: 10px;
 }
+
+.nichtgeschafft {
+    color: red;
+    background-color: white;
+}
+
+.impressum {
+    text-align: center;
+}
